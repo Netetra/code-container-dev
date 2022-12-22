@@ -1,0 +1,7 @@
+{
+    "name": "ContainerTemplate",
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "workspace",
+    "workspaceFolder": "/home",
+    "shutdownAction": "stopCompose"
+}
