@@ -4,5 +4,5 @@ services:
     build:
       dockerfile: ./workspace/Dockerfile
     volumes:
-      - ../src:/home:rw
+      - ../workspace:/home/ubuntu/workspace:rw
     command: sleep infinity

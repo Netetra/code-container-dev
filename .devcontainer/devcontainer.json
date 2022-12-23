@@ -2,6 +2,7 @@
     "name": "ContainerTemplate",
     "dockerComposeFile": "./docker-compose.yml",
     "service": "workspace",
-    "workspaceFolder": "/home",
-    "shutdownAction": "stopCompose"
+    "workspaceFolder": "/home/ubuntu/workspace",
+    "shutdownAction": "stopCompose",
+    "remoteUser": "ubuntu"
 }
